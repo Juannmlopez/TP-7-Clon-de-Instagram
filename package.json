@@ -1,0 +1,10 @@
+{
+  "name": "tp-7-clon-de-instagram",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix tp07",
+    "dev": "npm run dev --prefix tp07",
+    "build": "npm run build --prefix tp07",
+    "lint": "npm run lint --prefix tp07"
+  }
+}

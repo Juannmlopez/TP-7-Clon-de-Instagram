@@ -1,0 +1,4 @@
+{
+  "typescript.tsconfig": "tp07/tsconfig.app.json",
+  "npm.packageManager": "npm"
+}
