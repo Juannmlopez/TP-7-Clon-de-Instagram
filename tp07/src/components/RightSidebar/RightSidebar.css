@@ -1,0 +1,100 @@
+.right-sidebar {
+  width: 293px;
+  flex-shrink: 0;
+  padding-top: 8px;
+}
+
+.right-sidebar__user-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.right-sidebar__user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.right-sidebar__username {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.right-sidebar__fullname {
+  font-size: 14px;
+  color: var(--ig-text-secondary);
+}
+
+.right-sidebar__switch-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ig-primary);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.right-sidebar__suggestions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.right-sidebar__suggestions-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ig-text-secondary);
+}
+
+.right-sidebar__see-all {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--ig-text);
+}
+
+.right-sidebar__suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.right-sidebar__suggestion-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-sidebar__follow-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ig-primary);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.right-sidebar__footer {
+  margin-top: 24px;
+  font-size: 11px;
+  color: var(--ig-text-muted);
+  line-height: 1.8;
+}
+
+.right-sidebar__footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 4px;
+  margin-bottom: 8px;
+}
+
+.right-sidebar__footer-link {
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.avatar {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar__ring {
+  border-radius: 50%;
+  padding: 0;
+  background: transparent;
+}
+
+.avatar__ring--story {
+  padding: 2px;
+  background: var(--ig-story-gradient);
+}
+
+.avatar__inner {
+  border-radius: 50%;
+  overflow: hidden;
+  background: #dbdbdb;
+  border: none;
+}
+
+.avatar__ring--story .avatar__inner {
+  border: 2px solid var(--ig-bg);
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar__add {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--ig-primary);
+  border: 2px solid var(--ig-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

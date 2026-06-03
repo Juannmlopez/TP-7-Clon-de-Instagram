@@ -1,0 +1,23 @@
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--ig-text);
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.nav-item:hover {
+  background: #f5f5f5;
+}
+
+.nav-item--active {
+  font-weight: 600;
+}
+
+.nav-item__label {
+  font-size: 16px;
+}

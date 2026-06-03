@@ -1,0 +1,21 @@
+.app {
+  min-height: 100vh;
+  background: var(--ig-bg-secondary);
+  font-family: var(--ig-font);
+  display: flex;
+}
+
+.app__main {
+  margin-left: 244px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.app__main--feed {
+  padding: 24px;
+}
+
+.app__main--profile {
+  padding: 0;
+}
