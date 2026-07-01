@@ -77,20 +77,16 @@ export default function PostModal({
 }: PostModalProps) {
   const [liked, setLiked] = useState(post.liked)
   const [saved, setSaved] = useState(post.saved)
-  const [likeCount, setLikeCount] = useState(post.likes)
 
   useEffect(() => {
     setLiked(post.liked)
     setSaved(post.saved)
-    setLikeCount(post.likes)
   }, [post])
 
+  const likeCount = post.likes + (liked && !post.liked ? 1 : !liked && post.liked ? -1 : 0)
+
   function toggleLike() {
-    setLiked((prev) => {
-      const next = !prev
-      setLikeCount((c) => (next ? c + 1 : c - 1))
-      return next
-    })
+    setLiked((prev) => !prev)
   }
 
   useEffect(() => {
